@@ -1,6 +1,11 @@
 .services {
     background-color: var(--background-second-color);
     padding-top: 0;
+    display: none;
+
+    @media screen and (min-width:1200px) {
+        display: block;
+    }
 }
 
 .services__list {

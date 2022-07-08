@@ -4,16 +4,16 @@
 @import "./utils/hidden";
 
 @import "./components/container";
-@import "./components/logo";
+@import "./components/main/logo";
 @import "./components/section";
 @import "./components/cursor";
-@import "./components/modal";
+@import "./components/main/modal";
 
-@import "./components/header";
-@import "./components/hero";
-@import "./components/benefits";
-@import "./components/services";
-@import "./components/team";
-@import "./components/clients";
-@import "./components/portfolio";
-@import "./components/footer";
+@import "./components/main/header";
+@import "./components/main/hero";
+@import "./components/main/benefits";
+@import "./components/main/services";
+@import "./components/main/team";
+@import "./components/main/clients";
+@import "./components/main/portfolio";
+@import "./components/main/footer";
