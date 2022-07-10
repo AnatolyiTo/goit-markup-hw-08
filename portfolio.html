@@ -21,29 +21,62 @@
 <body>
     <header class="header">
         <div class="container">
-            <a class="header__logo link logo-top" href="index.html"><span class="logo-web">Web</span>Studio</a>
-            <ul class="header__list list">
-                <li class="header__item"><a href="index.html" class="header__link link ">Студия</a></li>
-                <li class="header__item"><a href="portfolio.html" class="header__link link current">Портфолио</a></li>
-                <li class="header__item"><a href="" class="header__link link ">Контакты</a></li>
-            </ul>
-            <div class="header-connect">
-                <nav class="header-nav">
-                    <ul class="header__link list">
-                        <li class="header__item"><a class="header__mail link" href="mailto:info@devstudio.com"><svg
-                                    class="header__icon" width="16" height="12">
-                                    <use href="./images/icons.svg#icon-envelope"></use>
-                                </svg>info@devstudio.com</a>
+            <nav class="page-nav">
+                <a href="./index.html" lang="en" class="header__logo link logo-top">
+                    <span class="logo-web">Web</span>Studio</a>
+                <button type="button" class="menu__btn" data-menu-button>
+                    <svg width="40" height="40">
+                        <use href="./images/icons.svg#icon-menu" class="open-menu__icon"></use>
+                        <use href="./images/icons.svg#icon-exit" class="close-menu__icon">
+                        </use>
+                    </svg>
+                </button>
+                <div class="mobile__cont" data-menu>
+                    <ul class="header-nav__list list">
+                        <li class="header-nav__item">
+                            <a href="./index.html" class="header-nav__link link">Студия</a>
                         </li>
-                        <li class="header__item"><a class="header__tel link" href="tel:+380961111111"><svg class="header__icon"
-                                    width="10" height="16">
-                                    <use href="./images/icons.svg#icon-smartphone"></use>
-                                </svg>+38 096 111 11
-                                11</a>
+                        <li class="header-nav__item">
+                            <a href="./portfolio.html" class="header-nav__link link current__link">Портфолио</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a href="/" class="header-nav__link link">Контакты</a>
                         </li>
                     </ul>
-                </nav>
-            </div>
+                    <ul class="header-cont__list list">
+                        <li class="header-cont__item">
+                            <a href="mailto:info@devstudio.com" class="header-cont__link header-mail__link link">
+                                <svg width="16" height="12" class="header-cont__icon">
+                                    <use href="./images/icons.svg#icon-envelope"></use>
+                                </svg>
+                                info@devstudio.com
+                            </a>
+                        </li>
+                        <li class="header-cont__item">
+                            <a href="tel:+380961111111" class="header-cont__link header-tel__link link">
+                                <svg width="10" height="16" class="header-cont__icon">
+                                    <use href="./images/icons.svg#icon-smartphone"></use>
+                                </svg>
+                                +38 096 111 11 11
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="soc-mobile__list list">
+                        <li class="soc-mobile__item">
+                            <a href="" class="soc-mobile__link link">Instagram</a>
+                        </li>
+                        <li class="soc-mobile__item">
+                            <a href="" class="soc-mobile__link link">Twitter</a>
+                        </li>
+                        <li class="soc-mobile__item">
+                            <a href="" class="soc-mobile__link link">Facebook</a>
+                        </li>
+                        <li class="soc-mobile__item">
+                            <a href="" class="soc-mobile__link link">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     </header>
     <main>
@@ -247,6 +280,7 @@
             </div>
         </div>
     </footer>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>
